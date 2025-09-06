@@ -326,7 +326,7 @@
 
 <div class="login-container" id="login">
   <h2>Enter Password</h2>
-  <input type="text" id="passwordInput" maxlength="30">
+  <input type="text" id="passwordInput" maxlength="16">
   <div class="keyboard" id="keyboard"></div>
 </div>
 
@@ -343,7 +343,7 @@
       <h3>Congratulations!</h3>
       <p>
         Now, guess your senior! <br><br>
-        I do wear salamin, typically may jacket, maraming pin sa ID lanyard, and syempre sigma boi.
+        I am matangkad, always na nakasalamin, at laging may kasamang 2 kaibigan na bading 😆.
       </p>
     </div>
 
@@ -359,7 +359,7 @@
 </div>
 
 <script>
-const correctPassword = "TRIPLE BEAM SINGLE PAN BALANCE";
+const correctPassword = "EVAPORATING DISH";
 const keyboard = document.getElementById("keyboard");
 const passwordInput = document.getElementById("passwordInput");
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
